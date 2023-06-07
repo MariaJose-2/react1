@@ -1,0 +1,52 @@
+.mensaje{
+    animation: BGcolorchangin-5colors 8s linear infinite alternate both;
+}
+
+.header{
+    animation: BGcolorchangin-5colors 8s linear infinite alternate both;
+}
+
+.main{
+    animation: BGcolorchangin-5colors 8s linear infinite alternate both;
+}
+
+.footer{
+    animation: BGcolorchangin-5colors 8s linear infinite alternate both;
+}
+
+@keyframes BGcolorchangin-5colors {
+    0% {
+        color:rgb(255, 77, 0);
+    }
+    20% {
+        color: rgb(85, 255, 0);
+    }
+    40% {
+        color: rgb(0, 255, 225);
+    }
+    60% {
+        color: rgb(8, 0, 255);
+    }
+    80% {
+        color: rgb(225, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 247);
+    }
+}
+
+.a{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.b{
+    background-color: rgb(102, 255, 0);
+    border-radius: 10px;
+}
+
